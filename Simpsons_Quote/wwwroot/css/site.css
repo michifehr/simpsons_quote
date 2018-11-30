@@ -1,0 +1,113 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-image: url("../images/background.jpg");
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+#overall {
+    height: 100%;
+    text-align: center;
+}
+
+#the_simpsons {
+
+}
+
+
+
+
+#picture {
+    width: 200px;
+    height: 300px;
+    background-color: red;
+}
+
+#name {
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    margin-top: -300px;
+    margin-left: 250px;
+}
+
+#quote {
+    width: 400px;
+    height: 200px;
+    background-color: green;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+
+#button {
+    background: none;
+    border: none;
+    padding: 0px;
+}
+
+
+
+
+.zoom {
+    transition: transform .2s; /* Animation */
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+        transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+#div_homer {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin-left: 60%;
+    margin-top: -200px;
+    margin-bottom: 0px;
+}
+
+
+#div_bart {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-left: 0%;
+    margin-top: -175px;
+    margin-bottom: 0px;
+}
