@@ -13,12 +13,9 @@ function myFunction(){
           var obj = myArray[0];
           var imgElm = document.getElementById("generated_image");
           imgElm.src = obj.image;
-            console.log(obj.characterDirection + " ("+(obj.characterDirection === "Right")+")");
-           if(obj.characterDirection === "Left"){
-            console.log(imgElm);
+            console.log(obj.characterDirection);
+          if(obj.characterDirection === "Right"){
             imgElm.style.transform = "scaleX(-1)";
-          } else { 
-            imgElm.style.transform = "scaleX(1)";
           }
           document.getElementById("name").innerHTML = obj.character;
           document.getElementById("quote").innerHTML = obj.quote;

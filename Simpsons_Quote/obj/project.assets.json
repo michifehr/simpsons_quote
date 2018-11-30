@@ -11507,11 +11507,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mifehr/Projects/Simpsons_Quote/Simpsons_Quote/Simpsons_Quote.csproj",
+      "projectUniqueName": "/Users/mifehr/Projects/simpsons_quote/Simpsons_Quote/Simpsons_Quote.csproj",
       "projectName": "Simpsons_Quote",
-      "projectPath": "/Users/mifehr/Projects/Simpsons_Quote/Simpsons_Quote/Simpsons_Quote.csproj",
+      "projectPath": "/Users/mifehr/Projects/simpsons_quote/Simpsons_Quote/Simpsons_Quote.csproj",
       "packagesPath": "/Users/mifehr/.nuget/packages/",
-      "outputPath": "/Users/mifehr/Projects/Simpsons_Quote/Simpsons_Quote/obj",
+      "outputPath": "/Users/mifehr/Projects/simpsons_quote/Simpsons_Quote/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
