@@ -24,18 +24,17 @@ function myFunction(){
           charName = obj.character;
           document.getElementById("name").innerHTML = charName;
           document.getElementById("quote").innerHTML = obj.quote;
+
+
+          gapi.client.load('youtube', 'v3', onYouTubeApiLoad);
       });
-
-
-
-
 
 
 // Your use of the YouTube API must comply with the Terms of Service:
 // https://developers.google.com/youtube/terms
 // Called automatically when JavaScript client library is loaded.
 
-    gapi.client.load('youtube', 'v3', onYouTubeApiLoad);
+
 }
 // Called automatically when YouTube API interface is loaded (see line 9).
 function onYouTubeApiLoad() {
@@ -61,24 +60,3 @@ function onSearchResponse(response) {
 
     //document.getElementById('video').innerHTML = videos.items[0].id.videoId;
 }
-
-
-
-
-
-
-
-//AIzaSyBcBWFdUBCkw5sNhQopziqh6vbrILyq-qE
-
-
-
-
-
-
-
-
-
-
-
-
-
