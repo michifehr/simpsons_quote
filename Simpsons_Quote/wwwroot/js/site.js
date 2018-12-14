@@ -1,5 +1,8 @@
 ﻿var charName = "";
 function myFunction(){
+    if (charName == ""){
+        document.getElementById("lanza").removeChild(document.getElementById("image_lanza"));
+    }
     fetch('https://thesimpsonsquoteapi.glitch.me/quotes')
       .then(function(response) {
         return response.json();

@@ -17,6 +17,7 @@
     <Content Remove="wwwroot\images\donut.png" />
     <Content Remove="wwwroot\lib\favicon.ico" />
     <Content Remove="wwwroot\favicon.ico" />
+    <Content Remove="wwwroot\images\lanza.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\images\" />
@@ -27,5 +28,6 @@
     <None Include="wwwroot\images\donut.jpg" />
     <None Include="wwwroot\images\donut.png" />
     <None Include="wwwroot\favicon.ico" />
+    <None Include="wwwroot\images\lanza.png" />
   </ItemGroup>
 </Project>
