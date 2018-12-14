@@ -2,7 +2,7 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
-
+var charName = "";
 function myFunction(){
     fetch('https://thesimpsonsquoteapi.glitch.me/quotes')
       .then(function(response) {
@@ -20,7 +20,9 @@ function myFunction(){
           } else { 
             imgElm.style.transform = "scaleX(1)";
           }
-          document.getElementById("name").innerHTML = obj.character;
+
+          charName = obj.character;
+          document.getElementById("name").innerHTML = charName;
           document.getElementById("quote").innerHTML = obj.quote;
       });
 
@@ -43,7 +45,7 @@ function onYouTubeApiLoad() {
 
     var request = gapi.client.youtube.search.list({
         part: 'snippet',
-        q: "The Simpsons"
+        q: charName
 });
     // Send the request to the API server, call the onSearchResponse function when the data is returned
     console.log(onSearchResponse);
