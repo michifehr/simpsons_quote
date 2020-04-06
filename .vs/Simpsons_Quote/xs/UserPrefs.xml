@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{7142B1A4-233F-4ADF-8CCA-9C53D9161815}|Default">
+  <MonoDevelop.Ide.ItemProperties.Simpsons__Quote PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Simpsons_Quote/wwwroot/css/site.css">
+    <Files>
+      <File FileName="Simpsons_Quote/Views/Home/Index.cshtml" Line="19" Column="23" />
+      <File FileName="Simpsons_Quote/Views/Shared/_Layout.cshtml" Line="5" Column="67" />
+      <File FileName="Simpsons_Quote/wwwroot/css/site.css" Line="33" Column="20" />
+      <File FileName="Simpsons_Quote/wwwroot/js/site.js" Line="28" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
